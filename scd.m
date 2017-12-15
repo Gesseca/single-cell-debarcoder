@@ -84,8 +84,10 @@ classdef scd
             
             y=importdata(key_filename);
             obj.masses=cellstr(num2str(y.data(1,:)'));
-            
-            obj.masses=cellstr(num2str(y.data(1,:)'));
+
+            % remove space from 2-digit weights incurred by cellstr (e.g. ' 89' -> '89' Yttrium)
+            obj.masses=strrep(obj.masses,' ','');
+ 
             obj.num_masses=length(obj.masses);
             obj.wellLabels=y.textdata(2:end);
             obj.num_codes=length(obj.wellLabels);
