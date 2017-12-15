@@ -1,0 +1,23 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\Corey Williams\Documents\MATLAB\Single_cell_debarcoder\for_redistribution" />
+  <mkdir dir="C:\Users\Corey Williams\Documents\MATLAB\Single_cell_debarcoder\for_testing" />
+  <mkdir dir="C:\Users\Corey Williams\Documents\MATLAB\Single_cell_debarcoder\for_redistribution_files_only" />
+</ant>
+mcc -C -o Single_cell_debarcoder -W WinMain:Single_cell_debarcoder -T link:exe -d 'C:\Users\Corey Williams\Documents\MATLAB\Single_cell_debarcoder\for_testing' -v 'C:\Users\Corey Williams\Documents\UVA\Zunder Lab\Programs\Kristen compiling\171215\single_cell_debarcode_gui.m' -a 'C:\Users\Corey Williams\Documents\UVA\Zunder Lab\Programs\Kristen compiling\171215\axticks.mat' -a 'C:\Users\Corey Williams\Documents\UVA\Zunder Lab\Programs\Kristen compiling\171215\fca_readfcs.m' -a 'C:\Users\Corey Williams\Documents\UVA\Zunder Lab\Programs\Kristen compiling\171215\fca_writefcs_op.m' -a 'C:\Users\Corey Williams\Documents\UVA\Zunder Lab\Programs\Kristen compiling\171215\scd.m' -a 'C:\Users\Corey Williams\Documents\UVA\Zunder Lab\Programs\Kristen compiling\171215\single_cell_debarcode_gui.fig' 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "C:\Users\Corey Williams\Documents\UVA\Zunder
+Lab\Programs\Kristen compiling\171215" to Compiler path instance.] 
+Parsing file "C:\Users\Corey Williams\Documents\UVA\Zunder Lab\Programs\Kristen compiling\171215\single_cell_debarcode_gui.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "C:\Users\Corey Williams\Documents\MATLAB\Single_cell_debarcoder\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files\MATLAB\R2015a\toolbox\compiler\Resources\default_icon.ico to C:\Users\Corey Williams\Documents\MATLAB\Single_cell_debarcoder\for_testing\Single_cell_debarcoder.exe.
+Attempting to embed the CTF archive into the application C:\Users\Corey Williams\Documents\MATLAB\Single_cell_debarcoder\for_testing\Single_cell_debarcoder.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at C:\Users\Corey Williams\Documents\MATLAB\Single_cell_debarcoder\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 6 minutes and 28 seconds.
